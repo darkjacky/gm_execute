@@ -1,3 +1,7 @@
-[submodule "LuaInterface"]
-	path = LuaInterface
-	url = https://github.com/glua/LuaInterface
+[submodule "vendor/gloo"]
+  url = git@github.com:mcountryman/gloo.git
+  path = vendor/gloo
+[submodule "vendor/reproc"]
+	url = https://github.com/DaanDeMeyer/reproc.git
+	path = vendor/reproc
+  branch = v4.0.0
