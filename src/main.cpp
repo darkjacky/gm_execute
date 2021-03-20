@@ -14,8 +14,8 @@ using namespace GarrysMod;
 	#define PCLOSE pclose
 #endif
 
-int os_execute(lua_State *state) {
-	LUA->CheckType(1, Lua::Type::STRING);
+LUA_FUNCTION(os_execute) {
+	LUA->CheckType(1, Lua::Type::String);
 
 	std::string shell = LUA->GetString(1);
 
